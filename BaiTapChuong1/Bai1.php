@@ -1,4 +1,4 @@
 <?php
   echo "Hello, World!";
-  hei 
+  echo "Mình đang test code";
 ?>
