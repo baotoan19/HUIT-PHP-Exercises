@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tính Diện Tích Hình Chữ Nhật</title>
+    <title>Form Đăng Nhập</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,39 +51,40 @@
 </head>
 
 <?php
-    // $length = isset($_POST["txt_length"]) ? floatval($_POST["txt_length"]) : 0;
-    // $width = isset($_POST["txt_width"]) ? floatval($_POST["txt_width"]) : 0;
-    // $acreage = $length * $width;
-    $length =0;
-    $width =0;
-    $acreage=0;
-    if  ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["txt_length"]) && isset($_POST["txt_width"])) // Check post not get and check insert by form1
+    $userName = isset($_POST["txt_user"]) ? $_POST["txt_user"] : "";
+    $passWord = isset($_POST["txt_pass"]) ? $_POST["txt_pass"] : "";
+    if (empty($userName) && empty($passWord))
     {
-        $length =$_POST["txt_length"];
-        $width =$_POST["txt_width"];
-        $acreage = $length * $width;
-    }    
+        echo " Please Enter Your User Name/PassWord !";
+    }
+    else if (empty($userName) || empty($passWord))
+    {
+        echo "Please Enter Your Full Username And Password!";
+    }
+    else if ($userName !== "baotoan" || $passWord !== "123")
+    {
+        echo "Try Again!";
+    }
+    else{
+        echo "Login Successful !";
+    }
 ?>
 <body>
-    <form name="f1" method="post" action="Bai3.php">
+    <form name="f1" method="post" action="Bai4.php">
         <table>
             <tr>
-                <th colspan="2">TÍNH DIỆN TÍCH HÌNH CHỮ NHẬT</th>
+                <th colspan="2">ĐĂNG NHẬP</th>
             </tr>
             <tr>
-                <td>Length</td>
-                <td><input class="textbox" type="text" name="txt_length" value="<?php echo $length ?>"> </td>
+                <td>UserName</td>
+                <td><input class="textbox" type="text" name="txt_user" value="<?php echo $userName ?>"> </td>
             </tr>
             <tr>
-                <td>Width</td>
-                <td> <input class="textbox" type="text" name="txt_width" value="<?php echo $width ?>"> </td>
-            </tr>
-            <tr>
-                <td>Acreage</td>
-                <td> <input class="textbox" type="text" name="txt_acreage" value="<?php echo $acreage ?>" readonly> </td>
+                <td>PassWord</td>
+                <td> <input class="textbox" type="text" name="txt_pass" value="<?php echo $passWord ?>"> </td>
             </tr>
             <tr >
-                <td class="btn" colspan="2"> <input type="submit" name="submit" value="TÍNH"></td>
+                <td class="btn" colspan="2"> <input type="submit" name="submit" value="LOGIN"></td>
             </tr>
         </table>
     </form>
