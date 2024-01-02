@@ -51,13 +51,10 @@
 </head>
 
 <?php
-    // $length = isset($_POST["txt_length"]) ? floatval($_POST["txt_length"]) : 0;
-    // $width = isset($_POST["txt_width"]) ? floatval($_POST["txt_width"]) : 0;
-    // $acreage = $length * $width;
     $length =0;
     $width =0;
     $acreage=0;
-    if  ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["txt_length"]) && isset($_POST["txt_width"])) // Check post not get and check insert by form1
+    if  ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["txt_length"]) && isset($_POST["txt_width"]))
     {
         $length =$_POST["txt_length"];
         $width =$_POST["txt_width"];
