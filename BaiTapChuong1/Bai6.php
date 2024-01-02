@@ -60,7 +60,7 @@
 <?php
     $inputString = isset($_POST["txt_input"]) ? $_POST["txt_input"] : "";
     $searchString = isset($_POST["txt_search"]) ? $_POST["txt_search"] : "";
-    $outputText="";
+    $posstion = 0;
     if(!empty($inputString) && !empty($searchString))
     {
         $posstion = strpos($inputString,$searchString);
