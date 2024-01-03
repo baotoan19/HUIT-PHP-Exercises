@@ -15,7 +15,6 @@ function giaiPTBacNhat($a, $b) {
             $result = "X = " . ((-$b) / $a) . "";
         }
     }
-
     return $result;
 }
 ?>
