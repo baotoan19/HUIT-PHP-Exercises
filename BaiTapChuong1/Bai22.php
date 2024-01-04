@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHÉP TÍNH TRÊN HAI SỐ</title>
 </head>
+
 <body>
     <form align="center" method="post" style="font-size: 25px;">
         <h2>PHÉP TÍNH TRÊN HAI SỐ</h2>
