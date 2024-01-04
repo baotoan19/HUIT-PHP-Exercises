@@ -30,7 +30,7 @@
 
 <body>
     <?php
-    include "IncludeBai12.php   ";
+    include "IncludeBai12.php";
     $a = isset($_POST["txt_a"]) ? $_POST["txt_a"] : '';
     $b = isset($_POST["txt_b"]) ? $_POST["txt_b"] : '';
     $result = giaiPTBacNhat($a, $b);

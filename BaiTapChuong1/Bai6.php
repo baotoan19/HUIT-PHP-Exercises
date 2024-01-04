@@ -1,3 +1,17 @@
+<?php
+    $inputString = isset($_POST["txt_input"]) ? $_POST["txt_input"] :"";
+    $originalString = isset($_POST["txt_original"]) ? $_POST["txt_original"] : "";
+    $replacementString = isset($_POST["txt_replacement"]) ? $_POST["txt_replacement"] : "";
+    $ouputString="";
+    if ($_SERVER["REQUEST_METHOD"]=="POST"){
+        if(!empty($inputString) && !empty($originalString) && !empty($replacementString)){
+            $ouputString = str_replace($originalString,$replacementString,$inputString);
+        }
+        else{
+            echo "Vui lòng nhập đầy đủ !!!";
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,20 +65,6 @@
     </style>
 </head>
 
-<?php
-    $inputString = isset($_POST["txt_input"]) ? $_POST["txt_input"] :"";
-    $originalString = isset($_POST["txt_original"]) ? $_POST["txt_original"] : "";
-    $replacementString = isset($_POST["txt_replacement"]) ? $_POST["txt_replacement"] : "";
-    $ouputString="";
-    if(!empty($inputString) && !empty($originalString) && !empty($replacementString))
-    {
-        $ouputString = str_replace($originalString,$replacementString,$inputString);
-    }
-    else
-    {
-        echo "Vui lòng nhập đầy đủ !!!";
-    }
-?>
 <body>
     <form name="f1" method="post" action="Bai6.php">
         <table>
