@@ -6,11 +6,12 @@
     <title>Bài 2</title>
 </head>
 <?php
-    $hoten = "";
-    if  ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["txt_Name"])) // Check post not get and check insert by form1
-    {
-        $hoten =$_POST["txt_Name"];
-    }    
+      $hoten = isset($_POST["txt_Name"]) ?  $_POST["txt_Name"]:'';
+    //$hoten="";
+    // if  ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["txt_Name"]) ?  $_POST["txt_Name"]:'') // Check post not get and check insert by form1
+    // {
+    //     $hoten =$_POST["txt_Name"];
+    // }    
     ?>
 <body>
     <form name = "f1" method="post" action="Bai2.php">
