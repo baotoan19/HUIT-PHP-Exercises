@@ -37,7 +37,6 @@
     ?>
 
     <form method="post" action="Bai12.php">
-
         <h2>GIẢI PHƯƠNG TRÌNH BẬC NHẤT</h2>
         <label for="">Phương Trình</label>
         <input type="text" style="width: 11%" name="txt_a" value=" <?php echo $a ?>"/> x 

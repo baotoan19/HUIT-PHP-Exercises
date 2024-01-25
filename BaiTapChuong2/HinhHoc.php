@@ -94,13 +94,12 @@ class HinhThang extends HinhHoc
         return $this->Kichthuoc['dayLon'];
     }
 
-    // Getter cho dayNho
     public function getDayNho()
     {
         return $this->Kichthuoc['dayNho'];
     }
 
-    // Getter cho chieuCao
+
     public function getChieuCao()
     {
         return $this->Kichthuoc['chieuCao'];

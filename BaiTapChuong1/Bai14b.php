@@ -7,9 +7,9 @@
 </head>
 <?php
     if ($_SERVER["REQUEST_METHOD"]=="POST"){
-        $name=$_POST["txt_name"];
-        $phone=$_POST["txt_phone"];
-        $content=$_POST["txt_content"];
+        $name= isset($_POST["txt_name"]) ? $_POST["txt_name"]: "";
+        $phone=isset($_POST["txt_phone"]) ? $_POST["txt_phone"]: "";
+        $content=isset($_POST["txt_content"]) ? $_POST["txt_content"]: "";
         if(!empty($name) && !empty($phone) && !empty($content)){
             $file = fopen("Data2.txt","w");
             fwrite($file,"$name\n");
@@ -18,9 +18,9 @@
             fclose($file);
             echo"<p style='color:red;'>Dữ liệu đã được ghi vào tệp tin thành công.</p>";
         }
-    }
-    else{
-        echo"<p style='color: red;'>Vui lòng nhập đầy đủ thông tin!</p>";
+        else{
+            echo"<p style='color: red;'>Vui lòng nhập đầy đủ thông tin!</p>";
+        }
     }
 ?>
 <body>
