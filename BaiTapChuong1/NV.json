@@ -1,0 +1,37 @@
+[
+    {
+      "MaNS": "01001004",
+      "TenNV": "Nguyễn Hải Yến",
+      "Email": "yennh@hufi.edu.vn",
+      "Khoa": "Công nghệ thông tin",
+      "Hinh": "NhanVien_07.JPG"
+    },
+    {
+      "MaNS": "01001005",
+      "TenNV": "Trần Văn Thọ",
+      "Email": "thotv@hufi.edu.vn",
+      "Khoa": "Công nghệ thông tin",
+      "Hinh": "NhanVien_08.jpg"
+    },
+    {
+      "MaNS": "01001006",
+      "TenNV": "Trần Thị Bích Ngọc",
+      "Email": "ngocttb@hufi.edu.vn",
+      "Khoa": "Công nghệ thông tin",
+      "Hinh": "NhanVien_09.jpg"
+    },
+    {
+      "MaNS": "01001007",
+      "TenNV": "Nguyễn Thế Hữu",
+      "Email": "huunt@huit.edu.vn",
+      "Khoa": "Công nghệ thông tin",
+      "Hinh": "NhanVien_08.jpg"
+    },
+    {
+      "MaNS": "01001008",
+      "TenNV": "Lê Mai Lan",
+      "Email": "lanlm@hufi.edu.vn",
+      "Khoa": "Điện điện tử",
+      "Hinh": "NhanVien_07.jpg"
+    }
+  ]

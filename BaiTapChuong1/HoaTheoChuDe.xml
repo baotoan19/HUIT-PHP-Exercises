@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Chu_des>
+<Chu_de Id = "1" TenCD="Hoa Tươi ngày cưới" Hinh="https://media.graphcms.com/V94LEqxWSOiWN42gfTXf" Gia="500.000₫"/> 
+<Chu_de Id = "1" TenCD="Hoa Tươi bó" Hinh="https://bizweb.dktcdn.net/100/438/408/files/cac-loai-hoa-dep-yody-vn7.jpg?v=1696306782741" Gia="600.000₫"/> 
+<Chu_de Id = "3" TenCD="Hoa Tươi cắm giỏ" Hinh="https://hoacuatui.shop/wp-content/uploads/2023/04/y-nghia-cua-hoa-huong-duong-trong-cuoc-song.webp" Gia="1.000.000₫"/> 
+<Chu_de Id = "4" TenCD="Hoa Tươi sự kiện" Hinh="https://media.graphcms.com/V94LEqxWSOiWN42gfTXf" Gia="2.000.000₫"/> 
+<Chu_de Id = "5" TenCD="Hoa Tươi để bàn" Hinh="https://bizweb.dktcdn.net/100/438/408/files/cac-loai-hoa-dep-yody-vn7.jpg?v=1696306782741" Gia="700.000₫"/> 
+<Chu_de Id = "6" TenCD="Hoa Ly tươi" Hinh="https://hoacuatui.shop/wp-content/uploads/2023/04/y-nghia-cua-hoa-huong-duong-trong-cuoc-song.webp" Gia="300.000₫"/>
+ <Chu_de Id = "7" TenCD="Hoa Hồng tươi" Hinh="https://bizweb.dktcdn.net/100/438/408/files/cac-loai-hoa-dep-yody-vn7.jpg?v=1696306782741" Gia="200.000₫"/> 
+ <Chu_de Id = "8" TenCD="Chậu hoa Lan" Hinh="https://media.graphcms.com/V94LEqxWSOiWN42gfTXf" Gia="1.500.000₫"/> 
+ <Chu_de Id = "9" TenCD="Hoa Phong Lan" Hinh="https://bizweb.dktcdn.net/100/438/408/files/cac-loai-hoa-dep-yody-vn7.jpg?v=1696306782741" Gia="2.500.000₫"/>
+ <Chu_de Id = "10" TenCD="Cây cảnh" Hinh="https://hoacuatui.shop/wp-content/uploads/2023/04/y-nghia-cua-hoa-huong-duong-trong-cuoc-song.webp" Gia="200.000₫"/>
+</Chu_des>
